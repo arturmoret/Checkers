@@ -44,7 +44,8 @@ A complete, modern implementation of the classic Checkers game in **C++17**, fea
 
 </div>
 
-In **Replay Mode**, moves can be triggered per frame with clicks, depending on your configuration.
+
+In **Replay Mode**, moves can be triggered per frame with clicks.
 
 ---
 
@@ -53,6 +54,29 @@ In **Replay Mode**, moves can be triggered per frame with clicks, depending on y
 ### Dependencies
 
 - C++17  
-- SDL2  
+- SDL2
+  
+---
+
+## Screenshots
+
+### Initial State
+
+<div align="center">
+  <img width="939" height="909" alt="Captura de pantalla 2025-07-17 144140" src="https://github.com/user-attachments/assets/d62d86f3-1bf9-41e9-800a-0ce6d64cd95d" />
+</div>
+
+### Final State 
+
+<div align="center">
+  <img width="934" height="875" alt="Captura de pantalla 2025-07-17 144449" src="https://github.com/user-attachments/assets/ea3c3a15-3c0a-4451-9ba7-1f3ef56708c9" />
+</div>
+
+### Replay Mode
+
+<div align="center">
+<img width="929" height="980" alt="Captura de pantalla 2025-07-17 144530" src="https://github.com/user-attachments/assets/b9e64a43-e86a-4e9d-8680-b6187d5eefe2" />
+</div>
+
 
 
