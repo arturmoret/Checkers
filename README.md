@@ -2,8 +2,6 @@
 
 A complete, modern implementation of the classic Checkers game in **C++17**, featuring an interactive graphical interface with **SDL2**, rule enforcement, and support for saving and replaying matches from files.
 
-Built to combine solid software engineering principles with engaging gameplay.
-
 ---
 
 ## Features
