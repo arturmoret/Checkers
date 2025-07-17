@@ -1,48 +1,48 @@
 # Checkers – C++ Game with SDL2
 
-A fully-functional Checkers (Draughts) game built in modern **C++17** using **SDL2** for graphical rendering.  
-Includes complete game logic, turn-based interaction, mandatory captures, and a replay system from saved files.
+A complete, modern implementation of the classic Checkers game in **C++17**, featuring an interactive graphical interface with **SDL2**, rule enforcement, and support for saving and replaying matches from files.
+
+Built to combine solid software engineering principles with engaging gameplay.
 
 ---
 
 ## Features
 
-- **Graphical board with real-time interaction**  
-  An 8×8 checkers board rendered with SDL2, supporting mouse input and live visual feedback.
+- **Graphical 8×8 board with real-time interaction**  
+  Smooth SDL2-powered interface with mouse support and visual feedback.
 
-- **Two gameplay modes**  
-  - *Normal*: Two-player game with full rules and move validation  
-  - *Replay*: Load a previous match and replay every move from a recorded file  
+- **Two game modes**  
+  - *Normal*: Turn-based match between two players with full rule validation  
+  - *Replay*: Load saved moves and watch a full game unfold automatically  
 
-- **Complete rule enforcement**  
-  - Piece movement and diagonal restrictions  
-  - King promotion when reaching the final row  
-  - Mandatory captures with recursive multi-jump detection  
+- **Full rule support**  
+  - Diagonal movement and valid piece restrictions  
+  - Mandatory capture logic (including multi-jump chaining)  
+  - Automatic king promotion when reaching the opposite side  
 
-- **Save & load support**  
-  - Board states stored in `.txt` files  
-  - Move history saved as a sequence of positions for replays  
+- **Game state persistence**  
+  - Save and load board configurations from plain text  
+  - Store entire move history for playback and analysis  
 
-- **Visual cues and indicators**  
-  - Valid moves highlighted during player interaction  
-  - Display of current mode, active player, and winner status  
-  - Mouse coordinates shown in real time  
+- **Visual feedback**  
+  - Highlighted valid moves  
+  - On-screen status: current player, mode, winner  
+  - Real-time mouse coordinate display  
+
+- **Modern C++ design**  
+  Emphasizes modularity, smart pointers, RAII, and `const`-correctness for safe and maintainable code.
 
 ---
 
-## Key Design Choices
+## Controls
 
-- **Recursive capture resolution**  
-  Multi-jump scenarios handled recursively to follow official rules for forced captures.
+| Input             | Action                                 |
+|------------------|----------------------------------------|
+| Left Click        | Select a piece / destination square    |
+| Right Click       | Cancel current selection (if any)      |
+| `Esc`             | Exit the game                          |
 
-- **Dynamic memory and smart pointers**  
-  Move history is stored in a linked list structure, and all piece objects are managed through smart pointers for safe allocation and deallocation.
-
-- **Separation of concerns**  
-  Clear modularity between logic and rendering. The UI layer handles input and visuals, while the core logic remains independent and testable.
-
-- **Modern C++ practices**  
-  RAII, `const`-correctness, and minimal use of raw pointers throughout the codebase.
+In **Replay Mode**, moves play out automatically or can be triggered per frame depending on your configuration.
 
 ---
 
@@ -53,10 +53,4 @@ Includes complete game logic, turn-based interaction, mandatory captures, and a 
 - C++17  
 - SDL2  
 
-### Build Instructions
-
-```bash
-mkdir build && cd build
-cmake .. -DCMAKE_BUILD_TYPE=Release
-make
 
