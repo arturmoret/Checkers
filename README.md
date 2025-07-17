@@ -34,13 +34,17 @@ A complete, modern implementation of the classic Checkers game in **C++17**, fea
 
 ## Controls
 
-| Input             | Action                                 |
-|------------------|----------------------------------------|
-| Left Click        | Select a piece / destination square    |
-| Right Click       | Cancel current selection (if any)      |
-| `Esc`             | Exit the game                          |
+<div align="center">
 
-In **Replay Mode**, moves play out automatically or can be triggered per frame depending on your configuration.
+| Input         | Action                                 |
+|---------------|----------------------------------------|
+| Left Click    | Select a piece / destination square    |
+| Right Click   | Cancel current selection (if any)      |
+| `Esc`         | Exit the game                          |
+
+</div>
+
+In **Replay Mode**, moves can be triggered per frame with clicks, depending on your configuration.
 
 ---
 
