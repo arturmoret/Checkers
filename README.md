@@ -41,6 +41,8 @@ A complete, modern implementation of the classic Checkers game in **C++17**, fea
 | Left Click    | Select a piece / destination square    |
 | Right Click   | Cancel current selection (if any)      |
 | `Esc`         | Exit the game                          |
+| `S`           | Save current game state to file       |
+| `R`           | Enter Replay Mode                      |
 
 </div>
 
@@ -76,11 +78,5 @@ In **Replay Mode**, moves can be triggered per frame with clicks.
 
 <div align="center">
   <img width="929" height="980" alt="Captura de pantalla 2025-07-17 144530" src="https://github.com/user-attachments/assets/98d52e0c-19cc-48b6-a80b-0e9d264d8076" />
-</div>
-
-### Replay Mode
-
-<div align="center">
-![eee](https://github.com/user-attachments/assets/e6c5b511-8f9d-44e6-907f-13a7aa071d2a)
 </div>
 
