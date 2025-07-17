@@ -66,17 +66,21 @@ In **Replay Mode**, moves can be triggered per frame with clicks.
   <img width="939" height="909" alt="Captura de pantalla 2025-07-17 144140" src="https://github.com/user-attachments/assets/d62d86f3-1bf9-41e9-800a-0ce6d64cd95d" />
 </div>
 
+### Possible Moves Highlighted
+
+<div align="center">
+  <img width="934" height="875" alt="Captura de pantalla 2025-07-17 144449" src="https://github.com/user-attachments/assets/41da7a21-25af-4dbe-8473-c70bd31ed2cb" />
+</div>
+
 ### Final State 
 
 <div align="center">
-  <img width="934" height="875" alt="Captura de pantalla 2025-07-17 144449" src="https://github.com/user-attachments/assets/ea3c3a15-3c0a-4451-9ba7-1f3ef56708c9" />
+  <img width="929" height="980" alt="Captura de pantalla 2025-07-17 144530" src="https://github.com/user-attachments/assets/98d52e0c-19cc-48b6-a80b-0e9d264d8076" />
 </div>
 
 ### Replay Mode
 
 <div align="center">
-<img width="929" height="980" alt="Captura de pantalla 2025-07-17 144530" src="https://github.com/user-attachments/assets/b9e64a43-e86a-4e9d-8680-b6187d5eefe2" />
+![eee](https://github.com/user-attachments/assets/e6c5b511-8f9d-44e6-907f-13a7aa071d2a)
 </div>
-
-
 
